@@ -9,7 +9,7 @@ body {
 header {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgb(19, 22, 31);
     height: 20%;
@@ -29,53 +29,64 @@ header > a {
 header > h1 {
     color: yellow;
     margin: 0;
-    margin-right: 50%;
+    margin-left: 1%;
     font-size: 1.5em;
+    margin-right: 10%;
 }
 
 header > img{
     width: 180px;
     margin-top: 1%;
     margin-bottom: 1%;
-    margin-left: 2%;
+    border-radius: 5%;
 }
 
 h3{
     text-align: center;
     font-size: 2em;
     color: yellow;
+    margin-top: 5%;
 }
+
+.paragrafo{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
 section {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
-    align-items: stretch;
-    gap: 20px;
-    height: 70%;
+    gap: 1%;
     background-color:rgb(14, 15, 17);
     color: white;
-    margin-bottom: 20px;
+    height: 60%;
 }
 
 .fut {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    background-color:rgb(43, 45, 49);
-    padding: 20px;
+    background-color: rgb(43, 45, 49);
+    padding: 1.5%;
     border: 1px solid rgb(104, 104, 104);
     border-radius: 5%;
-    margin: 5% 1%;
-
+    width: 15%;
+    height: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
 }
 
 
-section > div > img {
-    width: 200px;
+.fut > img {
+    width: 100px;
+    margin-top: 20%;
 }
 
-section > div > p {
-    margin-top: 40px;
+.fut > p {
+    margin-top: 10%;
     color: lightgray;
     text-align: center;
 }
@@ -83,10 +94,9 @@ section > div > p {
 
 .futp {
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+    flex-flow: column;
+    justify-content: center;
     background-color:rgb(43, 45, 49);
-  
     border: 1px solid rgb(104, 104, 104);
     border-radius: 5%;
     margin: 5% auto; 
@@ -96,11 +106,12 @@ section > div > p {
 .futp > img{
     width: 75%;
     padding: 5%;
+    margin-left: 8%;
     
 }
 
 .futp > p{
-    margin-top: 40px;
+    text-align: center;
     color: lightgray;
     font-size: 1.5em;
 }
@@ -113,7 +124,8 @@ footer {
     align-items: center;
     padding: 5%;
     background-color: rgb(19, 22, 31);
-    margin-top: 10%;
+    margin-top: 30%;
+    height: 10%;
 }
 
 footer > div {
@@ -136,8 +148,3 @@ footer > p {
 
 
 
-.paragrafo{
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
-}
